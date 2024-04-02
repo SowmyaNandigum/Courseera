@@ -1,0 +1,102 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    background-image: url(white-abstract-background_23-2148817571.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+   
+}
+.p-2{
+    color: gold;
+    background-color: gold;
+    width: 20%;
+    
+    
+}
+
+
+.text{
+    width: 800px;
+    background-color: seagreen;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-radius: 80px;
+}
+.wrapper img{
+    z-index: 1;
+    grid-column: span 2;
+    
+    
+    clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+background-color: seagreen;
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.25;
+    border-style: double;
+    
+}
+.main{
+    background-image: url(WhatsApp\ Image\ 2024-04-02\ at\ 9.06.37\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.wrapper2{
+    position: relative;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-radius: 80px;
+    top: 20%;
+}
+.wrapper2 img{
+    z-index: 1;
+    grid-column: span 2;
+    
+    
+    clip-path: polygon(50% 0%, 100% 50%,50% 100%,0% 50%);
+background-color: seagreen;
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.25;
+    border-style: double;
+    
+}
